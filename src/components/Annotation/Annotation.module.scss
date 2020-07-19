@@ -1,0 +1,21 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.75;
+  z-index: 1;
+}
+.container {
+  position: fixed;
+  z-index: 2;
+}
+.annotationWrapper {
+  position: relative;
+}
+.annotationInfo {
+  position: absolute;
+  top: 100%;
+}
